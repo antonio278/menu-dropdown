@@ -1,0 +1,61 @@
+.menu ul li {
+    background-color: rgb(100, 100, 182);
+    color: rgb(253, 252, 252);
+    float: left;
+    list-style: none;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+    
+}
+body{
+    background-image: url('img/OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 250px;
+
+}
+.menu ul li:hover{
+    background:darkblue ;
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul {
+    margin-left: 202px;
+    top:0px;
+    position: absolute;
+}
+.texto{
+    background-color:#00000091;
+    background-position: bottom;
+    display: block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 295px;
+    height: 500px;
+    
+
+    
+
+}
+p{
+    
+    text-align: center;
+    color: white;
+    margin-top: 245px;
+    
+    
+}
